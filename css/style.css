@@ -62,6 +62,7 @@ a {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 4px;
+
 }
 
 .contact__addr-place {
@@ -74,6 +75,7 @@ a {
   background-color: #2c323d;
   color: #fff;
   padding: 80px 0 35px;
+  color: #fff;
 }
 
 .education__info {
