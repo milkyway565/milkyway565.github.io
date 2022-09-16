@@ -53,6 +53,7 @@ a {
 
 .contact__info-box {
   margin-bottom: 45px;
+      word-wrap: break-word;
 }
 
 .contact__phone,
@@ -62,7 +63,6 @@ a {
   font-weight: 400;
   font-size: 20px;
   margin-bottom: 4px;
-
 }
 
 .contact__addr-place {
@@ -75,7 +75,6 @@ a {
   background-color: #2c323d;
   color: #fff;
   padding: 80px 0 35px;
-  color: #fff;
 }
 
 .education__info {
@@ -165,43 +164,202 @@ a {
 }
 
 .skills__inner {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.skills__languages{
+.skills__languages {
   margin-right: 21%;
 }
 
 .technology__title,
-.languages__title{
+.languages__title {
   font-size: 19px;
-    font-weight: 600;
-    margin-bottom: 23px;
+  font-weight: 600;
+  margin-bottom: 23px;
 }
 
 .skills__level,
-.languages__level{
+.languages__level {
   margin-bottom: 7px;
 }
 
-
-.social__title{
-      font-family: 'Poppins', sans-serif;
-        font-weight: 600;
-        font-size: 33px;
-        background-color: #424753;
-        margin-bottom: 50px;
-        padding-left: 37px;
+.skills__technology{
+  margin-right: 22px;
 }
 
-.social{
+
+.social__title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 33px;
+  background-color: #424753;
+  margin-bottom: 50px;
+  padding-left: 37px;
+}
+
+.social {
   background-color: #343945;
-    color: #fff;
-    padding: 80px 0 35px;
+  color: #fff;
+  padding: 80px 0 35px;
 }
 
-.social__item{
-      display: flex;
-        justify-content: space-around;
+.social__item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.avatar__img2 {
+  display: none;
+}
+
+
+@media (max-width: 1028px) {
+  .profile__name {
+    font-size: 64px;
+
+  }
+
+  .profile__position {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 920px) {
+  .profile__name {
+    font-size: 54px;
+
+  }
+
+  .profile__position {
+    font-size: 27px;
+  }
+}
+
+@media (max-width: 864px) {
+  .profile-info__box {
+    margin-top: 38px;
+    margin-left: 50px;
+  }
+
+  .profile__name {
+    font-size: 45px;
+  }
+
+  .aboutme__text,
+  .expirience__inner,
+  .skills__inner {
+    margin-bottom: 45px;
+    padding-left: 50px;
+  }
+
+  .aboutme__title,
+  .expirience__title,
+  .skills__title {
+    font-weight: 600;
+    font-size: 28px;
+    background-color: #ebebeb;
+    margin-bottom: 40px;
+    padding-left: 50px;
+  }
+
+  .contact__title,
+  .education__title,
+  .social__title {
+    font-size: 28px;
+  }
+
+  .contact,
+  .education,
+  .social {
+    padding: 60px 0 20px;
+  }
+}
+
+
+@media (max-width: 765px) {
+  .profile {
+    flex-direction: column-reverse;
+  }
+
+  .avatar__img {
+    display: none;
+  }
+
+  .avatar__img2 {
+    display: block;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .profile__position {
+    margin-bottom: 30px;
+  }
+
+  .profile-info__box {
+    margin-top: 23px;
+    margin-left: 0;
+  }
+
+  .aboutme__title,
+  .expirience__title,
+  .skills__title {
+    font-weight: 600;
+    font-size: 25px;
+    background-color: #ebebeb;
+    margin-bottom: 20px;
+    padding-left: 6px;
+  }
+
+  .aboutme__text,
+  .expirience__inner,
+  .skills__inner {
+    margin-bottom: 25px;
+    padding-left: 6px;
+  }
+
+  .technology__title,
+  .languages__title {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+
+  .skills__level,
+  .languages__level {
+    margin-bottom: 4px;
+  }
+
+  .contact,
+  .education,
+  .social {
+    padding: 30px 0 10px;
+  }
+
+  .contact__title,
+  .education__title,
+  .social__title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .contact__info-box {
+    margin-bottom: 30px;
+  }
+
+  
+}
+
+@media (max-width: 554px){
+  .skills__languages{
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 374px){
+.profile__name {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 }
