@@ -111,6 +111,10 @@ a {
   margin-left: 75px;
 }
 
+.profile-left {
+   background: #343945;
+}
+
 .profile__name {
   font-size: 80px;
   font-weight: 600;
@@ -142,11 +146,12 @@ a {
 }
 
 .expirience__company {
-  color: black;
-  justify-content: space-around;
-  display: flex;
-  background-color: #a9a9a9;
-  margin-bottom: 8px;
+margin-top: 7px;
+color: black;
+justify-content: space-around;
+display: flex;
+background-color: #a9a9a9;
+margin-bottom: 14px;
 }
 
 .expirience__year {
